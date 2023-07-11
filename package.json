@@ -1,0 +1,23 @@
+{
+  "name": "box-open-api-types-for-node",
+  "version": "1.0.0",
+  "description": "box open api types for node provides type information for node.js for the official API of the Box cloud storage service.",
+  "main": "./types/index.d.ts",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "build": "npx openapi-typescript ./openapi.json -o ./types/index.d.ts",
+    "postbuild": "prettier ./types --write"
+  },
+  "engines": {
+    "node": "16",
+    "yarn": "dot not use"
+  },
+  "keywords": [
+    "swagger",
+    "openapi",
+    "specification",
+    "api",
+    "box"
+  ],
+  "license": "Apache-2.0"
+}
