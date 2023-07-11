@@ -8,7 +8,7 @@ By utilizing this repository, Node.js developers can leverage the benefits of ID
 
 ## Usage
 
-Copy the `box-openapi-client` folder and paste it into your development project.
+Copy the `./types/index.d.ts` and paste it into your development project.
 Click [here](./examples/common.ts) for an example of using a mold.
 
 ## Retrieving the latest openapi.json
