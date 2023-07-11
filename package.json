@@ -19,5 +19,8 @@
     "api",
     "box"
   ],
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.4.1"
+  }
 }
